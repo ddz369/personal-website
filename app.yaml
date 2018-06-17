@@ -3,11 +3,10 @@
 # https://developers.google.com/appengine/docs/python/config/appconfig
 # for details.
 
-# TODO: Enter your application id below. If you have signed up
 # using cloud.google.com/console use the "project id" for your application
 # id.
-application: personal-website
-version: 1
+# application: personal-website
+# version: 1
 runtime: python27
 api_version: 1
 threadsafe: yes
@@ -19,6 +18,46 @@ handlers:
 # (and subdirectories). Uncomment and set the directory as needed.
 #- url: /client
 #  static_dir: client
+- url: /static
+  static_dir: templates/build/static
+  secure: always
+
+- url: /assets
+  static_dir: templates/build/assets
+  secure: always
+
+- url: /fonts
+  static_dir: templates/build/fonts
+  secure: always
+
+- url: /json
+  static_dir: templates/build/json
+  secure: always
+
+- url: /favicon\.ico
+  static_files: templates/public/favicon.ico
+  upload: templates/favicon.ico
+  secure: always
+
+- url: /asset-manifest\.json
+  static_files: templates/build/asset-manifest.json
+  upload: templates/build/asset-manifest.json
+  secure: always
+
+- url: /manifest\.json
+  static_files: templates/build/manifest.json
+  upload: templates/build/manifest.json
+  secure: always
+
+- url: /service-worker\.js
+  static_files: templates/build/service-worker.js
+  upload: templates/build/service-worker.js
+  secure: always
+
+- url: /index\.html
+  static_files: templates/build/index.html
+  upload: templates/build/index.html
+  application_readable: true
 
 # This handler tells app engine how to route requests to a WSGI application.
 # The script value is in the format <path.to.module>.<wsgi_application>
@@ -35,13 +74,15 @@ skip_files:
 - ^(.*/)?.*\.py[co]$
 - ^(.*/)?.*/RCS/.*$
 - ^(.*/)?\..*$
+
 # Third party libraries that are included in the App Engine SDK must be listed
 # here if you want to use them.  See
 # https://developers.google.com/appengine/docs/python/tools/libraries27 for
 # a list of libraries included in the SDK.  Third party libs that are *not* part
 # of the App Engine SDK don't need to be listed here, instead add them to your
 # project directory, either as a git submodule or as a plain subdirectory.
-# TODO: List any other App Engine SDK libs you may need here.
 libraries:
 - name: jinja2
+  version: latest
+- name: ssl
   version: latest

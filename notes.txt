@@ -1,0 +1,14 @@
+Install Python Libraries:
+~/:    pip install -t lib -r requirements.txt
+
+Install NPM Modules:
+~/templates:    npm install
+
+Build Project:
+~/templates:    npm build
+
+Start Project:
+~/templates:    npm start
+
+Deploy Project:
+~/:     gcloud app deploy
