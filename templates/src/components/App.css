@@ -28,15 +28,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid lightgray;
+  background-color: rgba(192, 192, 192, 0.15);
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   position: relative;
   float: left;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: auto;
 }
 
 .content-container {
@@ -51,7 +54,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 50px;
-  border-top: 1px solid lightgray;
+  /* border-top: 1px solid lightgray;
+  background-color: rgba(192, 192, 192, 0.25); */
 }
 
 @-webkit-keyframes Gradient {
