@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import * as routes from '../../constants/routes'
 import './style.css'
 
 const Navigation = () =>
   <div className="nav-bar">
-    <Link to={routes.ABOUT}>about</Link>&ensp;|&ensp;
-    <Link to={routes.PORTFOLIO}>portfolio</Link>&ensp;|&ensp;
-    <Link to={routes.CONTACT}>contact</Link>
+    <NavLink to={routes.ABOUT} activeStyle={{ textDecoration: 'underline'}}>about</NavLink>&ensp;|&ensp;
+    <NavLink to={routes.PORTFOLIO} activeStyle={{ textDecoration: 'underline' }}>portfolio</NavLink>&ensp;|&ensp;
+    <NavLink to={routes.CONTACT} activeStyle={{ textDecoration: 'underline' }}>contact</NavLink>
   </div>
 
 export default Navigation
