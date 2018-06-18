@@ -1,8 +1,9 @@
 import React from 'react'
+import './style.css'
 
 const Contact = () =>
-  <div>
-    <h1> HELLO WORLD 3! </h1>
+  <div className="contact">
+    <h1>Hello World!</h1>
   </div>
 
 export default Contact

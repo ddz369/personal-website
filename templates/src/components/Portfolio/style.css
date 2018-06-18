@@ -1,0 +1,6 @@
+.portfolio {
+  -webkit-animation: fade-in 2.5s; /* Safari, Chrome and Opera */
+  -moz-animation: fade-in 2.5s; /* Firefox */
+  -ms-animation: fade-in 2.5s; /* Internet Explorer */
+  animation: fade-in 2.5s;
+}

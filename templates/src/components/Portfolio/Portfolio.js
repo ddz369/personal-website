@@ -1,8 +1,9 @@
 import React from 'react'
+import './style.css'
 
 const Portfolio = () =>
-  <div>
-    <h1> HELLO WORLD 2! </h1>
+  <div className="portfolio">
+    <h1> Hello World </h1>
   </div>
 
 export default Portfolio

@@ -7,9 +7,7 @@ import Footer from './Footer'
 import About from './About'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
-
 import './App.css';
-import avatar from '../images/avatar.png';
 
 class App extends Component {
   render() {
@@ -25,10 +23,6 @@ class App extends Component {
             <Route exact path={routes.ABOUT} component={About} />
             <Route exact path={routes.PORTFOLIO} component={Portfolio} />
             <Route exact path={routes.CONTACT} component={Contact} />
-            <img src={avatar} className="avatar"/>
-            <h1>hello, i'm <span>darvin</span>.</h1>
-            <h4>please be patient. the site is under construction.<br/>
-            please see my <strong>Github</strong> for more details.</h4>
           </div>
         </body>
         <footer className="footer-container">
