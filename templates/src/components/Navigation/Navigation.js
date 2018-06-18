@@ -3,8 +3,8 @@ import './style.css'
 
 const Navigation = () =>
   <div className="nav-bar">
-    <a href="#">about</a>&emsp;|&emsp;
-    <a href="#">portfolio</a>&emsp;|&emsp;
+    <a href="#">about</a>&ensp;|&ensp;
+    <a href="#">portfolio</a>&ensp;|&ensp;
     <a href="#">contact</a>
   </div>
 
