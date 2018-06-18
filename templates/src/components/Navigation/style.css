@@ -1,5 +1,7 @@
-.navbar {
-
+.nav-bar {
+  padding: 10px 0;
+  vertical-align: top;
+  width: 100%;
 }
 
 ul {

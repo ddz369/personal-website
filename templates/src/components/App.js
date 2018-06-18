@@ -3,21 +3,22 @@ import logo from '../images/logo.svg';
 import './App.css';
 
 import Navigation from './Navigation'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
     return (
       <div className="main-container">
-        <header className="header-container">
+        <header className="navigation-container">
           <Navigation />
         </header>
         <body className="content-container">
-        <h1 className="App-title">Welcome to my Site!</h1>
+          <div className="content">
+            <h1>Welcome to my Site!</h1>
+          </div>
         </body>
         <footer className="footer-container">
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <Footer/>
         </footer>
       </div>
     );

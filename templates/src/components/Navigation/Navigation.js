@@ -2,10 +2,10 @@ import React from 'react'
 import './style.css'
 
 const Navigation = () =>
-  <div className="navbar">
-    <a href="#">News</a>
-    <a href="">Contact</a>
-    <a href="#">About</a>
+  <div className="nav-bar">
+    <a href="#">About</a>&emsp;
+    <a href="#">Portfolio</a>&emsp;
+    <a href="#">Contact</a>
   </div>
 
 export default Navigation
