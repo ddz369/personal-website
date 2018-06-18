@@ -32,7 +32,6 @@ body {
   width: 200px;
   margin: auto;
   padding: 20px;
-  opacity: 50%;
   animation: pulse 4s infinite;
   animation-direction: alternate;
   -webkit-animation-name: pulse;
