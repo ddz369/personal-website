@@ -13,6 +13,13 @@ body {
 	animation: Gradient 10s ease infinite;
 }
 
+.avatar {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+}
+
 .main-container {
   margin:0;
   padding: 0;

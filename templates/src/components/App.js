@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.svg';
+import avatar from '../images/avatar.png';
 import './App.css';
 
 import Navigation from './Navigation'
@@ -14,10 +14,10 @@ class App extends Component {
         </header>
         <body className="content-container">
           <div className="content">
-            <h1>Welcome to my Site!</h1>
-            <h3>Site is under <strong>construction</strong></h3>
-            <h3>Site is under <strong>construction</strong></h3>
-            <h3>Site is under <strong>construction</strong></h3>
+            <img src={avatar} className="avatar"/>
+            <h1>Hello, I'm <strong>Darvin!</strong></h1>
+            <h4>Please be patient. The site is under construction. <br/>
+            Please see my <strong>Github</strong> for more details.</h4>
           </div>
         </body>
         <footer className="footer-container">
