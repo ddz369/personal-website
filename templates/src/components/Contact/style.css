@@ -1,6 +1,52 @@
 .contact {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
   -webkit-animation: fade-in 2.5s; /* Safari, Chrome and Opera */
   -moz-animation: fade-in 2.5s; /* Firefox */
   -ms-animation: fade-in 2.5s; /* Internet Explorer */
   animation: fade-in 2.5s;
+}
+
+.contact input[type="text"] {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact input[type="text"]:focus {
+  border-bottom: 1px solid lightgrey;
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
+
+.contact textarea {
+  height: auto;
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
+.contact textarea:focus {
+  border: 1px solid lightgrey;
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
+
+.contact button {
+  background-color: white;
+  border-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  float: right;
+  margin-left: 15px;
 }
