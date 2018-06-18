@@ -4,6 +4,23 @@
   width: 100%;
 }
 
-ul {
+.nav-bar a {
+  border-bottom: 1px solid transparent;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
 
+.nav-bar a:focus {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.nav-bar a:hover, active {
+  color: white;
+  border-bottom: 1px solid white;
 }

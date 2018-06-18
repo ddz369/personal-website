@@ -15,6 +15,7 @@ class App extends Component {
         <body className="content-container">
           <div className="content">
             <h1>Welcome to my Site!</h1>
+            <h3>Site is under <strong>construction</strong></h3>
           </div>
         </body>
         <footer className="footer-container">
