@@ -12,14 +12,14 @@ h1 {
 }
 
 body {
-	width: 100wh;
-	height: 100vh;
-	color: #fff;
-	background: linear-gradient(-45deg, #FF6AD5, #C774E8, #AD8CFF, #8795E8, #94D0FF, #94D0FF);
-	background-size: 400% 400%;
-	-webkit-animation: gradient 10s ease infinite;
-	-moz-animation: gradient 10s ease infinite;
-	animation: gradient 10s ease infinite;
+  width: 100wh;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #FF6AD5, #C774E8, #AD8CFF, #8795E8, #94D0FF, #94D0FF);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 10s ease infinite;
+  -moz-animation: gradient 10s ease infinite;
+  animation: gradient 10s ease infinite;
 }
 
 .avatar {
@@ -28,7 +28,7 @@ body {
   margin: auto;
   padding: 20px;
   opacity: 50%;
-  animation: pulse 3s infinite;
+  animation: pulse 4s infinite;
   animation-direction: alternate;
   -webkit-animation-name: pulse;
   animation-name: pulse;
@@ -83,42 +83,52 @@ body {
   background-color: rgba(192, 192, 192, 0.25); */
 }
 
+.float-left {
+  float: left;
+  padding: 0px 20px;
+}
+
+.float-right {
+  float: right;
+  padding: 0px 20px;
+}
+
 @-webkit-keyframes gradient {
-	0% { background-position: 0% 50% }
-	50% { background-position: 100% 50% }
-	100% { background-position: 0% 50% }
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
 }
 
 @-moz-keyframes gradient {
-	0% { background-position: 0% 50% }
-	50% { background-position: 100% 50% }
-	100% { background-position: 0% 50% }
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
 }
 
 @keyframes gradient {
-	0% { background-position: 0% 50% }
-	50% { background-position: 100% 50% }
-	100% { background-position: 0% 50% }
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
 }
 
 @keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @-moz-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @-webkit-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @-ms-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @-webkit-keyframes pulse {

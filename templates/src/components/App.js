@@ -15,7 +15,7 @@ class App extends Component {
         <body className="content-container">
           <div className="content">
             <img src={avatar} className="avatar"/>
-            <h1>HELLO,I'M <strong>DARVIN ZHANG</strong></h1>
+            <h1>HELLO,I'M DARVIN.</h1>
             <h4>please be patient. the site is under construction. <br/>
             please see my <strong>Github</strong> for more details.</h4>
           </div>
