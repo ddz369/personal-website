@@ -5,6 +5,9 @@
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 4px;
+  color: #eed67a;
+  text-shadow: 2px 2px #a934ef;
+  text-outline: 2px 2px #ff0000;
 }
 
 h1 {
@@ -28,14 +31,17 @@ body {
 }
 
 .avatar {
-  height: 200px;
-  width: 200px;
+  color: #fbb7ff82;
+  height: 250px;
+  width: 250px;
   margin: auto;
   padding: 20px;
-  animation: pulse 4s infinite;
+  border-radius: 50%;
+  box-shadow: 10px 10px;
+  /* animation: pulse 4s infinite;
   animation-direction: alternate;
   -webkit-animation-name: pulse;
-  animation-name: pulse;
+  animation-name: pulse; */
 }
 
 .main-container {

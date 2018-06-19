@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom'
 
 import * as routes from '../constants/routes'
 import Navigation from './Navigation'
@@ -17,14 +17,16 @@ class App extends Component {
         <header className="navigation-container">
           <Navigation />
         </header>
-        <body className="content-container">
+        <div className="content-container">
           <div className="content">
+            <Switch>
             <Redirect from="/" exact to={routes.ABOUT}/>
             <Route exact path={routes.ABOUT} component={About} />
             <Route exact path={routes.PORTFOLIO} component={Portfolio} />
             <Route exact path={routes.CONTACT} component={Contact} />
+            </Switch>
           </div>
-        </body>
+        </div>
         <footer className="footer-container">
           <Footer/>
         </footer>

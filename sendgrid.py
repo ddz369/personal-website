@@ -5,6 +5,7 @@ from sendgrid.helpers.mail import *
 
 receiver = "darvin.zhang@gmail.com"
 
+
 # function that looks to send an email via sendgrid
 def send(sender, subject, comment):
     # initializing the sendgrid class with our api key
@@ -18,6 +19,4 @@ def send(sender, subject, comment):
 
     # attempt to send the mail
     response = sg.client.mail.send.post(request_body=mail.get())
-    print(response.status_code)
-    print(response.body)
-    print(response.headers)
+    return response

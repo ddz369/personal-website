@@ -19,7 +19,7 @@
 }
 
 .contact input[type="text"]:focus {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #eed67a;
   -webkit-transition: border 500ms ease;
   -moz-transition: border 500ms ease;
   -ms-transition: border 500ms ease;
@@ -35,7 +35,7 @@
 }
 
 .contact textarea:focus {
-  border: 1px solid lightgrey;
+  border: 1px solid #eed67a;
   -webkit-transition: border 500ms ease;
   -moz-transition: border 500ms ease;
   -ms-transition: border 500ms ease;
@@ -49,4 +49,13 @@
   color: rgba(0, 0, 0, 0.5);
   float: right;
   margin-left: 15px;
+}
+
+.contact button:hover {
+  background-color: #eed67a;
+  border-color: #eed67a;
+}
+
+.contact button:active {
+  transform: translateX(4px);
 }
