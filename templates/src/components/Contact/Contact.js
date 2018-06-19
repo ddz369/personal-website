@@ -6,7 +6,7 @@ const INITIAL_STATE = {
     email: '',
     subject: '',
     comment: '',
-    error: null,
+    message: '',
 }
 
 class Contact extends Component {
@@ -25,14 +25,12 @@ class Contact extends Component {
         data.append('comment', comment)
 
         axios.post('/api/send_mail', data)
-            .then(r => this.setState({ error: r }))
-            .catch(e => { this.setState({ error: e }); console.log(e.response);
-            })
-
+            .then(r => this.setState({ message: r.data.response })
+            .catch(e => this.setState({ message: e })))
     }
 
     render() {
-        const { email, subject, comment, error, } = this.state
+        const { email, subject, comment, message, } = this.state
         const isInvalid = email === ''|| subject === '' || comment == ''
 
         return (
@@ -62,7 +60,7 @@ class Contact extends Component {
               <button type="submit" disabled={isInvalid}>
                 send message
               </button>
-              {error && <p style={{ color: 'red' }}>{error.message}</p>}
+              {<p style={{ color: '#eed67a' }}>{message}</p>}
             </form>
           </div>
         );

@@ -19,4 +19,5 @@ def send(sender, subject, comment):
 
     # attempt to send the mail
     response = sg.client.mail.send.post(request_body=mail.get())
+    print(response.status_code)
     return response
