@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import avatar from '../../images/avatar.gif'
+import avatar from '../../images/avatar.png'
 import * as FontAwesome from 'react-icons/lib/fa'
 
 const About = () =>

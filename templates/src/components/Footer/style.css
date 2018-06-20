@@ -1,9 +1,9 @@
 .footer {
   bottom: 0;
+  vertical-align: bottom;
+  width: 100%;
   height: auto;
   padding: 10px 0;
-  width: 100%;
-  vertical-align: bottom;
 }
 
 .footer a {

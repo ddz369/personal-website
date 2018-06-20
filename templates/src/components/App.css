@@ -4,10 +4,10 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 4px;
   color: #eed67a;
   text-shadow: 2px 2px #a934ef;
   text-outline: 2px 2px #ff0000;
+  letter-spacing: 4px;
 }
 
 h1 {
@@ -15,42 +15,28 @@ h1 {
 }
 
 h1 span {
-    background-color: rgba(192, 192, 192, 0.25);
-    padding: 10px;
+  padding: 10px;
+  background-color: rgba(192, 192, 192, 0.25);
 }
 
 body {
   width: 100wh;
   height: 100vh;
-  color: #fff;
   background: linear-gradient(-45deg, #FF6AD5, #C774E8, #AD8CFF, #8795E8, #94D0FF, #94D0FF);
   background-size: 400% 400%;
+  color: #fff;
   -webkit-animation: gradient 10s ease infinite;
   -moz-animation: gradient 10s ease infinite;
   animation: gradient 10s ease infinite;
 }
 
-.avatar {
-  color: #fbb7ff82;
-  height: 250px;
-  width: 250px;
-  margin: auto;
-  padding: 20px;
-  border-radius: 50%;
-  box-shadow: 10px 10px;
-  /* animation: pulse 4s infinite;
-  animation-direction: alternate;
-  -webkit-animation-name: pulse;
-  animation-name: pulse; */
-}
-
 .main-container {
-  margin:0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
   text-align: center;
   -webkit-animation: fade-in 2.5s; /* Safari, Chrome and Opera */
   -moz-animation: fade-in 2.5s; /* Firefox */
@@ -59,10 +45,10 @@ body {
 }
 
 .navigation-container {
-  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50px;
   background-color: rgba(192, 192, 192, 0.15);
 }
 
@@ -71,10 +57,10 @@ body {
   flex-direction: column;
   position: relative;
   float: left;
+  overflow: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  overflow: auto;
 }
 
 .content-container {

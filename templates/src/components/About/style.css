@@ -4,3 +4,21 @@
   -ms-animation: fade-in 2.5s; /* Internet Explorer */
   animation: fade-in 2.5s;
 }
+
+.about a:hover, a:active, a:focus {
+  color: #eed67a;
+}
+
+.about .avatar {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 10px 10px;
+  color: #fbb7ff82;
+  /* animation: pulse 4s infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse; */
+}

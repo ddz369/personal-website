@@ -1,12 +1,12 @@
 .nav-bar {
-  padding: 10px 0;
   vertical-align: top;
   width: 100%;
+  padding: 10px 0;
 }
 
 .nav-bar a {
-  border-bottom: 1px solid transparent;
   color: white;
+  border-bottom: 1px solid transparent;
   text-decoration: none;
   -webkit-transition: border 500ms ease;
   -moz-transition: border 500ms ease;
@@ -16,8 +16,8 @@
 }
 
 .nav-bar a:focus {
-  border-bottom: 1px solid white;
   color: white;
+  border-bottom: 1px solid white;
 }
 
 .nav-bar a:hover, active {
