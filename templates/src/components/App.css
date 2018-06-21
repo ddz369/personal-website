@@ -89,6 +89,14 @@ body {
   padding-right: 15px;
 }
 
+/* fonts */
+@font-face {
+    font-family: Sackers Gothic Light AT;
+    src: url("../fonts/SackersGothicLightAT.woff") format("woff"),
+         url("../fonts/SackersGothicLightAT.ttf")  format("truetype");
+}
+
+/* animations */
 @-webkit-keyframes gradient {
   0% { background-position: 0% 50% }
   50% { background-position: 100% 50% }
