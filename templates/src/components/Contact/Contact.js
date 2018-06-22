@@ -31,7 +31,7 @@ class Contact extends Component {
 
     render() {
         const { email, subject, comment, message, } = this.state
-        const isInvalid = email === ''|| subject === '' || comment == ''
+        const isInvalid = email === ''|| subject === '' || comment === ''
 
         return (
             <div className="contact">
