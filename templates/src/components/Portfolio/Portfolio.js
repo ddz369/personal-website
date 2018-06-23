@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
             with the currency, users can generate tasks via our website by putting a set amount of lynkcoin as a bounty to a task.
             whenever the task is performed by another user, a percentage of the bounty is retained (until the bounty depletes). the
             tasks range from visiting a website, getting more twitter followers, upvoting a reddit thread, etc. the site is built with a
-            python flask backend, uses firebase for authentication, google/firebase database for storage, and uses html, css,
+            python flask backend, uses firebase for authentication, google / firebase database for storage, and uses html, css,
             react, redux, and jquery for the front end. the site also currently supports twitter oauth, twilio phone verification, and
             sends structured data through restful json services. to view the website please click:&nbsp;
             <a href="http://lynkcoin.io" target="_blank" rel="noopener noreferrer"><span><strong>here</strong></span></a>
@@ -61,11 +61,11 @@ class Portfolio extends React.Component {
             <h6>
             in the fall of 2017, i had the pleasure of creating client server based chat room applications for my cloud computing class.
             the concept was fairly simple, you required a chat room that could serve multiple clients, and that would be able
-            create/list/join(which had to list the current comment history of the room on join) chatrooms while also needing to clean up
-            dead clients/unused chat rooms. the added catch was that the implementation had to be done with a variety of different technologies,
-            services, and programming languages. in total, i managed to develop a chat room with web services (rest/soap), middleware
+            create, list, and join(which had to list the current comment history of the room on join) chatrooms while also needing to clean up
+            dead clients / unused chat rooms. the added catch was that the implementation had to be done with a variety of different technologies,
+            services, and programming languages. in total, i managed to develop a chat room with web services (rest / soap), middleware
             (corba, remoting, rmi, message passing) and through sockets with java, c#,  and go. the initially tedious task ended up allowing me
-            to practice crucial concepts such as multi-threading, asynchronous functions, and locking. to see my implementaion, please click:&nbsp;
+            to practice crucial concepts such as multi-threading, asynchronous functions, and locking. to see my implementation, please click:&nbsp;
             <a href="https://drive.google.com/drive/folders/1ifj7ofbY4OkVdg5hB_v_kx6-72-Ybr4B" target="_blank" rel="noopener noreferrer"><span><strong>here</strong></span></a>
             </h6>
             <img src={chatapp} alt=""/>
@@ -102,11 +102,11 @@ class Portfolio extends React.Component {
             <h2>phonenanza hci</h2>
             <h6>
             as per my Human Computer Interactions class i, along with three fellow colleagues,  were given the task of designing and prototyping a hci design
-            challenge which either had to be a upgraded version of a current design (website, app, console) or a new innovative idea that seeked to tackle a real
+            challenge which either had to be a upgraded version of a current design (website, app, console) or a new innovative idea that sought to tackle a real
             life problem. together, my group decided on designing a solution to a problem we each faced, picking out out a phone and plan best fit for us in a relatively
             convenient amount of time. with that unified idea in mind, we developed a innovative, mobile friendly layout that catered to both tech savvy and inexperienced users.
             the designed incorporated the option to select a phone, a plan, or the combination together. it would track your current location with permissions and offered a
-            questionnaire to new/indecisive users. In the end, you were to email a copy of your selection to yourself (and potentially purchase it, but that was not implemented
+            questionnaire to new or indecisive users. In the end, you were to email a copy of your selection to yourself (and potentially purchase it, but that was not implemented
             as of the prototype). to see the documentation and prototype, please click:&nbsp;
             <a href="https://drive.google.com/drive/folders/1JBeUoUMRcqtB63cxI1bUyzvKapzpjdRg" target="_blank" rel="noopener noreferrer"><span><strong>here</strong></span></a>
             </h6>
@@ -120,7 +120,7 @@ class Portfolio extends React.Component {
             since last, such as a sprite artist, which allowed the program to be developed efficiently. The game itself served up to four players,
             which each controlled a unit that had a class associated to it. each class had their own special abilities and weaknesses in correlation to other
             classes, increasing the complexity of the game immensely. notably, the game also had controller support. most of my time allocated towards
-            the project was with the gui development, page flow, bug fixing, testing, balancing, and implementing our heuristic for proper game start/completion.
+            the project was with the gui development, page flow, bug fixing, testing, balancing, and implementing our heuristic for proper game start / completion.
             to see the project in git, please click:&nbsp;
             <a href="https://github.com/KillerGiraffeStudios/GameJam" target="_blank" rel="noopener noreferrer"><span><strong>here</strong></span></a>
             </h6>
@@ -131,7 +131,7 @@ class Portfolio extends React.Component {
             <h6>
             a game build with unity c# along with three other group member within the time constraint of 48 hours for game jam 2015.
             the game played out similarly to agar.io, only with the exception of upgrades, rounds, and implementation of cpus. my major role in the
-            project was with the gui design (along with some minor work in the game logic/interaction). For an added note, all of our developers
+            project was with the gui design (along with some minor work in the game logic and interaction). For an added note, all of our developers
             had little to no experience with game development when building this project. our team ended up getting 2nd place for best theme.
             to see our game in action on the game jam website, please click:&nbsp;
             <a href="http://gamewithus.ca/games/?gameID=56" target="_blank" rel="noopener noreferrer"><span><strong>here</strong></span></a>

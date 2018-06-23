@@ -20,7 +20,7 @@ class About extends React.Component {
     return (
       <div className="about">
         <h1>darvin zhang</h1>
-        <h4>software engineer | it | web development | game developer</h4>
+        <h4>software engineer | web development | game developer | it</h4>
         <hr/>
         <br/>
         <div className="align-left">
@@ -31,7 +31,7 @@ class About extends React.Component {
         through react, google app engine, and python flask (which was what i used to build&nbsp;
         <a href="https://github.com/ddz369/personal-website" target="_blank" rel="noopener noreferrer"><span><strong>this site</strong></span></a>).
         <br/><br/>
-        you will find that i am a passionate, committed developer with who values communication and best practices.
+        you will find that i am a passionate, committed programmer with who values communication and best practices.
         </h6>
         </div>
       </div>

@@ -1,7 +1,9 @@
 .nav-bar {
   vertical-align: top;
   width: 100%;
-  padding: 10px 0;
+  padding: 15px 0;
+  opacity: 0.7;
+  background: black;
 }
 
 .nav-bar a {

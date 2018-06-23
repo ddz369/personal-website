@@ -3,23 +3,29 @@
   letter-spacing: 3px;
 }
 
+/* text & links */
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
-}
-
-span, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
-  text-decoration: underline;
 }
 
 h1 {
   padding: 0px;
   margin: 0px;
+  color: #b1791e;
   /* text-shadow: 2px 2px #a934ef;
   text-outline: 2px 2px #ff0000; */
 }
 
+h2 {
+  color: #b1791e;
+}
+
 hr {
   border: #b1791e 0.5px solid;
+}
+
+span {
+  text-decoration: underline;
 }
 
 a {
@@ -28,12 +34,13 @@ a {
 }
 
 a:hover, active {
-  color: black;
+  color: white;
 }
 
+/* main css */
 body {
-  background: white;
-  color: #b1791e
+  /* background: white; */
+  color: #847474
   /* width: 100wh;
   height: 100vh;
   background: linear-gradient(-45deg, #FF6AD5, #C774E8, #AD8CFF, #8795E8, #94D0FF, #94D0FF);
@@ -52,6 +59,10 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-image: url('../images/background.jpg');
   -webkit-animation: fade-in 2.5s; /* Safari, Chrome and Opera */
   -moz-animation: fade-in 2.5s; /* Firefox */
   -ms-animation: fade-in 2.5s; /* Internet Explorer */
@@ -93,6 +104,7 @@ body {
   background-color: rgba(192, 192, 192, 0.25); */
 }
 
+/* helper css */
 .float-left {
   float: left;
   padding-left: 15px;
@@ -147,6 +159,26 @@ body {
 @-ms-keyframes fade-in {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+
+@keyframes fade-in-light {
+  from { opacity: 0; }
+  to   { opacity: 0.8; }
+}
+
+@-moz-keyframes fade-in-light {
+  from { opacity: 0; }
+  to   { opacity: 0.8; }
+}
+
+@-webkit-keyframes fade-in-light {
+  from { opacity: 0; }
+  to   { opacity: 0.8; }
+}
+
+@-ms-keyframes fade-in-light {
+  from { opacity: 0; }
+  to   { opacity: 0.8; }
 }
 
 @-webkit-keyframes pulse {
