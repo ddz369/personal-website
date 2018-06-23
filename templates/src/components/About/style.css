@@ -1,6 +1,8 @@
 .about {
   width: 60%;
+  padding: 50px;
   margin: 0 auto;
+  background: #f5f5f5;
   -webkit-animation: fade-in 2.5s; /* Safari, Chrome and Opera */
   -moz-animation: fade-in 2.5s; /* Firefox */
   -ms-animation: fade-in 2.5s; /* Internet Explorer */
@@ -30,5 +32,7 @@
 @media only screen and (max-width: 992px) {
   .about {
     width: 95%;
+    padding: 10px;
   }
 }
+

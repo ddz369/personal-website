@@ -5,7 +5,7 @@ import './style.css'
 const Footer = () =>
   <div className="footer">
     <div className="float-left">
-        <FontAwesome.FaHeart/> made by <a href="http://github.com/ddz369" target="_blank" rel="noopener noreferrer"><span><strong>darvin</strong></span></a>
+        <FontAwesome.FaHeart/> by <a href="http://github.com/ddz369" target="_blank" rel="noopener noreferrer"><span><strong>darvin</strong></span></a>
     </div>
     <div className="float-right">
       <a href="http://github.com/ddz369" target="_blank" rel="noopener noreferrer"><FontAwesome.FaGithub/></a>&emsp;

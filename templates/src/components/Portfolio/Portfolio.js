@@ -14,7 +14,7 @@ class Portfolio extends React.Component {
     state = { loading: true };
 
     componentDidMount() {
-        setTimeout(() => this.setState({ loading: false }), 1000);
+        this.setState({ loading: false });
     }
 
     render() {

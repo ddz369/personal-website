@@ -21,43 +21,61 @@ handlers:
 - url: /static
   static_dir: templates/build/static
   secure: always
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 - url: /assets
   static_dir: templates/build/assets
   secure: always
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 - url: /fonts
   static_dir: templates/build/fonts
   secure: always
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 - url: /json
   static_dir: templates/build/json
   secure: always
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 - url: /favicon\.ico
   static_files: templates/public/favicon.ico
   upload: templates/favicon.ico
   secure: always
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 - url: /asset-manifest\.json
   static_files: templates/build/asset-manifest.json
   upload: templates/build/asset-manifest.json
   secure: always
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 - url: /manifest\.json
   static_files: templates/build/manifest.json
   upload: templates/build/manifest.json
   secure: always
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 - url: /service-worker\.js
   static_files: templates/build/service-worker.js
   upload: templates/build/service-worker.js
   secure: always
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 - url: /index\.html
   static_files: templates/build/index.html
   upload: templates/build/index.html
   application_readable: true
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 # This handler tells app engine how to route requests to a WSGI application.
 # The script value is in the format <path.to.module>.<wsgi_application>

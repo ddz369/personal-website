@@ -1,10 +1,10 @@
 * {
   font-family: 'Sackers Gothic Light AT';
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 span, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
@@ -14,6 +14,8 @@ span, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 h1 {
   padding: 0px;
   margin: 0px;
+  /* text-shadow: 2px 2px #a934ef;
+  text-outline: 2px 2px #ff0000; */
 }
 
 hr {
@@ -26,11 +28,11 @@ a {
 }
 
 a:hover, active {
-  color: white;
+  color: black;
 }
 
 body {
-  background: black;
+  background: white;
   color: #b1791e
   /* width: 100wh;
   height: 100vh;
@@ -61,7 +63,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  background-color: rgba(192, 192, 192, 0.15);
+  /* background-color: rgba(192, 192, 192, 0.15); */
 }
 
 .content {
