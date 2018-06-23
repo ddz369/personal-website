@@ -1,12 +1,18 @@
 .about {
+  width: 60%;
+  margin: 0 auto;
   -webkit-animation: fade-in 2.5s; /* Safari, Chrome and Opera */
   -moz-animation: fade-in 2.5s; /* Firefox */
   -ms-animation: fade-in 2.5s; /* Internet Explorer */
   animation: fade-in 2.5s;
 }
 
-.about a:hover, a:active, a:focus {
+/* .about a:hover, a:active, a:focus {
   color: #eed67a;
+} */
+
+.about .align-left {
+  text-align: left;
 }
 
 .about .avatar {
@@ -14,11 +20,15 @@
   height: 250px;
   padding: 20px;
   margin: auto;
-  border-radius: 50%;
-  box-shadow: 10px 10px;
-  color: #fbb7ff82;
   /* animation: pulse 4s infinite;
   animation-direction: alternate;
   -webkit-animation-name: pulse;
   animation-name: pulse; */
+}
+
+/* desktop */
+@media only screen and (max-width: 992px) {
+  .about {
+    width: 95%;
+  }
 }

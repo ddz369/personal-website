@@ -1,34 +1,45 @@
 * {
-  font-family: 'MS Gothic', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-weight: lighter;
+  font-family: 'Sackers Gothic Light AT';
   letter-spacing: 4px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #eed67a;
-  text-shadow: 2px 2px #a934ef;
-  text-outline: 2px 2px #ff0000;
   letter-spacing: 4px;
 }
 
-h1 {
+span, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   text-decoration: underline;
 }
 
-h1 span {
-  padding: 10px;
-  background-color: rgba(192, 192, 192, 0.25);
+h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+hr {
+  border: #b1791e 0.5px solid;
+}
+
+a {
+  color: #b1791e;
+  text-decoration: none;
+}
+
+a:hover, active {
+  color: white;
 }
 
 body {
-  width: 100wh;
+  background: black;
+  color: #b1791e
+  /* width: 100wh;
   height: 100vh;
   background: linear-gradient(-45deg, #FF6AD5, #C774E8, #AD8CFF, #8795E8, #94D0FF, #94D0FF);
   background-size: 400% 400%;
   color: #fff;
   -webkit-animation: gradient 10s ease infinite;
   -moz-animation: gradient 10s ease infinite;
-  animation: gradient 10s ease infinite;
+  animation: gradient 10s ease infinite; */
 }
 
 .main-container {

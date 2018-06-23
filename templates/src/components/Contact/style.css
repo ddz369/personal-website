@@ -8,18 +8,25 @@
   animation: fade-in 2.5s;
 }
 
+@media only screen and (max-width: 600px) {
+  .contact {
+    width: 95%;
+  }
+}
+
 .contact input[type="text"] {
   border: 0;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #b1791e;
   border-radius: 0;
-  padding: 5px 0px 5px 0px;
+  padding: 0px;
+  height: auto;
   margin-bottom: 30px;
   color: white;
   background: transparent;
 }
 
 .contact input[type="text"]:focus {
-  border-bottom: 1px solid #eed67a;
+  border-bottom: 1px solid white;
   -webkit-transition: border 500ms ease;
   -moz-transition: border 500ms ease;
   -ms-transition: border 500ms ease;
@@ -31,11 +38,11 @@
   height: auto;
   background: transparent;
   color: white;
-  border-color: white;
+  border-color: #b1791e;
 }
 
 .contact textarea:focus {
-  border: 1px solid #eed67a;
+  border: 1px solid white;
   -webkit-transition: border 500ms ease;
   -moz-transition: border 500ms ease;
   -ms-transition: border 500ms ease;
@@ -44,16 +51,16 @@
 }
 
 .contact button {
-  background-color: white;
-  border-color: white;
-  color: rgba(0, 0, 0, 0.5);
+  background-color: #b1791e;
+  border-color: #b1791e;
+  color: black;
   float: right;
   margin-left: 15px;
 }
 
 .contact button:hover {
-  background-color: #eed67a;
-  border-color: #eed67a;
+  background-color: white;
+  border-color: white;
 }
 
 .contact button:active {

@@ -5,7 +5,7 @@
 }
 
 .nav-bar a {
-  color: white;
+  color: #b1791e;
   border-bottom: 1px solid transparent;
   text-decoration: none;
   -webkit-transition: border 500ms ease;
@@ -16,11 +16,11 @@
 }
 
 .nav-bar a:focus {
-  color: white;
-  border-bottom: 1px solid white;
+  color: #b1791e;
+  border-bottom: 1px solid #b1791e;
 }
 
 .nav-bar a:hover, active {
-  color: white;
-  border-bottom: 1px solid white;
+  color: #b1791e;
+  border-bottom: 1px solid #b1791e;
 }
