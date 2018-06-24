@@ -4,6 +4,7 @@
   padding: 50px;
   opacity: 0.8;
   background: black;
+  border-radius: 20px;
   text-align: left;
   -webkit-animation: fade-in-light 2.5s; /* Safari, Chrome and Opera */
   -moz-animation: fade-in-light 2.5s; /* Firefox */

@@ -37,8 +37,8 @@ class Portfolio extends React.Component {
             tasks range from visiting a website, getting more twitter followers, upvoting a reddit thread, etc. the site is built with a
             python flask backend, uses firebase for authentication, google / firebase database for storage, and uses html, css,
             react, redux, and jquery for the front end. the site also currently supports twitter oauth, twilio phone verification, and
-            sends structured data through restful json services. to view the website please click:&nbsp;
-            <a href="http://lynkcoin.io" target="_blank" rel="noopener noreferrer"><span><strong>here</strong></span></a>
+            sends structured data through restful json services. the website is currently down, but to see the code, please click:&nbsp;
+            <a href="https://drive.google.com/drive/folders/1CUrzymEM7euW3xRFmJFCLCLANRPTe4GH" target="_blank" rel="noopener noreferrer"><span><strong>here</strong></span></a>
             </h6>
             <img src={lynkcoin} alt=""/>
           </li>
@@ -51,7 +51,7 @@ class Portfolio extends React.Component {
             obtain a video to watch. additionally, a disqus forum thread was to be generated for unique chatting in each video.
             it was a eye-opening project where we uncovered errors such the fact disqus would not change threads unless the url was changed.
             overall, the project did what it was designed for and proved to be good experience for my future web development projects. to see the
-            website please click:&nbsp;
+            website, please click:&nbsp;
             <a href="https://cryptocoins-faith.appspot.com/" target="_blank" rel="noopener noreferrer"><span><strong>here</strong></span></a>
             </h6>
             <img src={videoroulette} alt=""/>

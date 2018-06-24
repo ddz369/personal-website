@@ -22,6 +22,7 @@
   margin: 25px auto;
   text-align: left;
   background: black;
+  border-radius: 20px;
 }
 
 .portfolio img {
@@ -29,6 +30,7 @@
   width: 75%;
   height: auto;
   margin: 0 auto;
+  border-radius: 20px;
 }
 
 /* desktop */
@@ -40,7 +42,7 @@
   }
 
   .portfolio li {
-    width: 100%;
+    width: 98%;
     padding: 10px;
   }
 

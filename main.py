@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from send_mail import send
-import re
+import re as re
 
 app = Flask(__name__)
 
